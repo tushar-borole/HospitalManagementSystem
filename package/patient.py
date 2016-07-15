@@ -3,6 +3,7 @@ from package.model import conn
 class Patient(Resource):
     def get(self):
         patients = conn.execute("SELECT * FROM patient").fetchall()
+
         return patients
 
     def put(self):

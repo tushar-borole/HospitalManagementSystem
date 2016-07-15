@@ -4,8 +4,6 @@ from package.patient import Patient
 from package.doctor import Doctor
 
 
-
-
 app = Flask(__name__, static_url_path='')
 api = Api(app)
 
