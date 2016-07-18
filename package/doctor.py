@@ -23,6 +23,10 @@ class Doctors(Resource):
         return doctorInput
 
 class Doctor(Resource):
+    def get(self,id):
+        doctor = conn.execute("SELECT * FROM doctor WHERE doc_id=?",(id,)).fetchall()
+        return doctor
+
     def delete(self, id):
         conn.execute("DELETE FROM doctor WHERE doc_id=?", (id,))
         conn.commit()
