@@ -1,303 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9374f26-cbbf-47fc-9e49-697448af0259" name="Default" comment="js changes added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/bg9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/dummy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/lock-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/logo-single.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/mb-sample.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/mockup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/profile-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/img/user/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/fontawesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/fontawesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/fontawesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/fontawesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/fontawesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/app-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/bootstrap-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/theme-a.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/theme-b.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/theme-c.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/theme-d.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/theme-e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/theme-f.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/theme-g.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/css/theme-h.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/documentation/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/i18n/site-en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/i18n/site-es.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/singleview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/app/submenu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/_layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/_layout_h.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/partials/_footer.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/partials/_head.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/partials/_offsidebar-tab1.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/partials/_offsidebar-tab2.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/partials/_offsidebar.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/partials/_scripts.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/partials/_sidebar.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/partials/_top-navbar.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/singleview.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/jade/views/submenu.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/app.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/custom/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/modules/bootstrap-start.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/modules/clear-storage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/modules/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/modules/localize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/modules/navbar-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/modules/sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/modules/toggle-state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/js/modules/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/animate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/bootstrap-reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/layout-animation.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/layout-extra.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/layout.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/media-queries.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/offsidebar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/sidebar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/top-navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/typo.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/app/utils.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/input-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/reset-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/vendor-prefixes.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/bootstrap/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/themes/theme-a.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/themes/theme-b.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/themes/theme-c.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/themes/theme-d.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/themes/theme-e.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/themes/theme-f.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/themes/theme-g.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/less/themes/theme-h.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/animate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/bootstrap-reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/breadcrumbs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/layout-animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/layout-extra.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/media-queries.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/offsidebar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/sidebar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/top-navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/typo.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/utils-definitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/utils.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/app/variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/_bootstrap-compass.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/_bootstrap-mincer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/_bootstrap-sprockets.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/_bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_badges.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_breadcrumbs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_button-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_component-animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_dropdowns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_glyphicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_input-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_modals.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_navs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_pager.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_popovers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_progress-bars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_responsive-embed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_responsive-utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_thumbnails.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_wells.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_center-block.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_hide-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_nav-vertical-align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_opacity.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_progress-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_reset-filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_reset-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_responsive-visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_tab-focus.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_text-overflow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_vendor-prefixes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/themes/theme-a.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/themes/theme-b.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/themes/theme-c.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/themes/theme-d.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/themes/theme-e.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/themes/theme-f.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/themes/theme-g.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sass/themes/theme-h.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/sidebar.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/master/vendor.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/animate.css/animate.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/animo.js/animo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/fontawesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/fontawesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jQuery-Storage-API/jquery.storageapi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery-localize-i18n/dist/jquery.localize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery.easing/js/jquery.easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery/dist/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/modernizr/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/css/simple-line-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/whirl/dist/whirl.css" />
+    <list default="true" id="e9374f26-cbbf-47fc-9e49-697448af0259" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/_layout.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/_layout_h.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/partials/_footer.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/partials/_head.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/partials/_offsidebar-tab1.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/partials/_offsidebar-tab2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/partials/_offsidebar.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/partials/_scripts.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/partials/_sidebar.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/partials/_top-navbar.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/singleview.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/jade/views/submenu.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/app.init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/custom/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/modules/bootstrap-start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/modules/clear-storage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/modules/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/modules/localize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/modules/navbar-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/modules/sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/modules/toggle-state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/js/modules/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/animate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/bootstrap-reset.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/layout-animation.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/layout-extra.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/layout.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/media-queries.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/offsidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/top-navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/typo.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/app/utils.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/bootstrap/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/themes/theme-a.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/themes/theme-b.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/themes/theme-c.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/themes/theme-d.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/themes/theme-e.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/themes/theme-f.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/themes/theme-g.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/less/themes/theme-h.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/animate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/bootstrap-reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/layout-animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/layout-extra.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/media-queries.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/offsidebar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/sidebar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/top-navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/typo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/utils-definitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/utils.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/app/variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/_bootstrap-compass.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/_bootstrap-mincer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/_bootstrap-sprockets.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/_bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_badges.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_button-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_component-animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_dropdowns.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_glyphicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_input-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_modals.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_navs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_pager.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_popovers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_progress-bars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_responsive-embed.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_responsive-utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_thumbnails.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/_wells.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_center-block.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_nav-vertical-align.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_opacity.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_progress-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_reset-filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_reset-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_responsive-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_tab-focus.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_text-overflow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/bootstrap/bootstrap/mixins/_vendor-prefixes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/themes/theme-a.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/themes/theme-b.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/themes/theme-c.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/themes/theme-d.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/themes/theme-e.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/themes/theme-f.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/themes/theme-g.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sass/themes/theme-h.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/sidebar.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/master/vendor.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/app/css/app.css" afterPath="$PROJECT_DIR$/static/app/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/index.html" afterPath="$PROJECT_DIR$/static/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/patient.js" afterPath="$PROJECT_DIR$/static/js/patient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/patient.html" afterPath="$PROJECT_DIR$/static/patient.html" />
     </list>
     <ignored path="HospitalManagementSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -321,18 +249,38 @@
       <file leaf-file-name="patient.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/patient.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patient.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="patient.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/patient.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
               <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="singleview.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/app/singleview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="183" column="43" selection-start-line="183" selection-start-column="43" selection-end-line="183" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -366,6 +314,8 @@
         <option value="$PROJECT_DIR$/static/js/common.js" />
         <option value="$PROJECT_DIR$/static/patient.html" />
         <option value="$PROJECT_DIR$/static/js/patient.js" />
+        <option value="$PROJECT_DIR$/static/app/js/app.js" />
+        <option value="$PROJECT_DIR$/static/index.html" />
       </list>
     </option>
   </component>
@@ -431,6 +381,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HospitalManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HospitalManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,21 +607,28 @@
       <option name="project" value="LOCAL" />
       <updated>1468846854169</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Theme Added">
+      <created>1468851958078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1468851958078</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30757096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30757096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -680,7 +655,8 @@
     <MESSAGE value="Today Final Commit" />
     <MESSAGE value="Apis creation done" />
     <MESSAGE value="js changes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="js changes added" />
+    <MESSAGE value="Theme Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Theme Added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -791,22 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/patient.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/patient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -815,5 +775,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="149" column="50" selection-start-line="149" selection-start-column="50" selection-end-line="149" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/patient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/app/singleview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="183" column="43" selection-start-line="183" selection-start-column="43" selection-end-line="183" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
