@@ -1,0 +1,20 @@
+// START Off Sidebar (right)
+nav
+
+  div(role='tabpanel')
+    // Nav tabs
+    ul.nav.nav-tabs.nav-justified(role='tablist')
+      li.active(role='presentation')
+        a(href='#app-settings', aria-controls='app-settings', role='tab', data-toggle='tab')
+          em.icon-equalizer.fa-lg
+      li(role='presentation')
+        a(href='#app-chat', aria-controls='app-chat', role='tab', data-toggle='tab')
+          em.icon-user.fa-lg
+    // Tab panes
+    .tab-content
+      #app-settings.tab-pane.fade.in.active(role='tabpanel')
+        include _offsidebar-tab1
+      #app-chat.tab-pane.fade(role='tabpanel')
+        include _offsidebar-tab2
+
+// END Off Sidebar (right)

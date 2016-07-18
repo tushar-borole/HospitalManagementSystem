@@ -1,0 +1,27 @@
+{
+  "sidebar": [
+    {
+      "text": "Menu Navigation",
+      "heading": "true",
+      "translate": "sidebar.heading.HEADER"
+    },
+    {
+      "text": "Single View",
+      "href": "singleview.html",
+      "icon": "fa fa-file-o",
+      "translate": "sidebar.nav.SINGLEVIEW"
+    },
+    {
+      "text": "Menu",
+      "href": "#menuid",
+      "icon": "icon-folder",
+      "submenu": [
+        { "text": "Sub Menu", 
+          "href": "submenu.html", 
+          "translate": "sidebar.nav.menu.SUBMENU" 
+        }    
+      ],
+      "translate": "sidebar.nav.menu.MENU"
+    }
+  ]
+}

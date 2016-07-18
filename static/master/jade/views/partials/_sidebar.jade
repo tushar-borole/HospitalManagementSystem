@@ -1,0 +1,44 @@
+block active
+  //- This block is used to set the active view name
+  //- then we check it against the sidebar configuration 
+  //- to set as active the current sidebar item 
+
+mixin build_sidebar_tree(tree)
+  - each item in tree
+
+    //- check only items, we will active parents later using client-side JS
+    - item.active = (sidebar_active==item.href)
+    
+    li(class=(item.heading?'nav-heading':'')+' '+(item.active?'active':''))
+      - var label = item.label || 'label label-success'
+      - if (item.heading)
+        span(data-localize=item.translate)= item.text
+      - else
+        - if (item.submenu)
+          a(href=item.href, title=item.text, data-toggle="collapse")
+            - if (item.alert)
+              .pull-right(class=label)= item.alert
+            - if (typeof item.icon !== 'undefined')
+              em(class=item.icon)
+            span(data-localize=item.translate)= item.text
+          ul.nav.sidebar-subnav.collapse(id=item.href.replace('#',''))
+            li.sidebar-subnav-header= item.text
+            +build_sidebar_tree(item.submenu)
+        - else
+          a(href=item.href, title=item.text)
+            - if (item.alert)
+              .pull-right(class=label)= item.alert
+            - if (typeof item.icon !== 'undefined')
+              em(class=item.icon)
+            span(data-localize=item.translate)= item.text
+
+// START Sidebar (left)
+.aside-inner
+  nav.sidebar(data-sidebar-anyclick-close="")
+    // START sidebar nav
+    ul.nav
+      // Iterates over all sidebar items
+      +build_sidebar_tree(sidebar)
+    // END sidebar nav
+
+// END Sidebar (left)

@@ -1,3 +1,7 @@
+$(document).ready(function(){
+
+
+
 function addPatient() {
 
     var settings = {
@@ -24,11 +28,10 @@ function deletePatient() {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "http://127.0.0.1:5000/patient",
+        "url": "patient",
         "method": "DELETE",
         "headers": {
-            "cache-control": "no-cache",
-            "postman-token": "947acfed-5853-06f3-9b32-52ab6c1b9d8b"
+            "cache-control": "no-cache"
         }
     }
 
@@ -43,12 +46,11 @@ function updatePatient() {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "http://127.0.0.1:5000/patient/2",
+        "url": "patient/2",
         "method": "PUT",
         "headers": {
             "content-type": "application/json",
-            "cache-control": "no-cache",
-            "postman-token": "b6f68ea3-c870-ba02-99e4-14eb33e2e613"
+            "cache-control": "no-cache"
         },
         "processData": false,
         "data": "{\n  \"pat_first_name\": \"Tushar\",\n  \"pat_last_name\": \"posst\",\n  \"pat_insurance_no\": \"posst\",\n  \"pat_ph_no\": \"posst\",\n  \"pat_address\": \"posst\"\n}"
@@ -66,7 +68,7 @@ function getPatient() {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "http://127.0.0.1:5000/patient",
+        "url": "patient",
         "method": "GET",
         "headers": {
             "cache-control": "no-cache"
@@ -79,3 +81,8 @@ $.ajax(settings).done(function (response) {
 
 
 }
+
+
+getPatient()
+
+})

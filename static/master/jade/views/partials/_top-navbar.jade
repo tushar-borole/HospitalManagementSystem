@@ -1,0 +1,47 @@
+// START Top Navbar
+nav.navbar.topnavbar(role='navigation')
+    // START navbar header
+    .navbar-header
+      a.navbar-brand(href='#/') 
+        .brand-logo 
+          img.img-responsive(src="img/logo.png", alt="App Logo")
+        .brand-logo-collapsed 
+          img.img-responsive(src="img/logo-single.png", alt="App Logo")
+    // END navbar header
+
+    // START Nav wrapper
+    .nav-wrapper
+      // START Left navbar
+      ul.nav.navbar-nav
+        li
+          // Button used to collapse the left sidebar. Only visible on tablet and desktops
+          a(href='#', data-toggle-state="aside-collapsed").hidden-xs
+            em.fa.fa-navicon
+          // Button to show/hide the sidebar on mobile. Visible on mobile only.
+          a(href='#', data-toggle-state="aside-toggled", data-no-persist="true").visible-xs.sidebar-toggle
+            em.fa.fa-navicon
+      // END Left navbar
+
+      // START Right Navbar
+      ul.nav.navbar-nav.navbar-right
+        // Search icon
+        li
+          a(href='#', data-search-open="")
+            em.icon-magnifier
+        // START Offsidebar button
+        li
+          a(href='#', data-toggle-state="offsidebar-open", data-no-persist="true")
+            em.icon-notebook
+        // END Offsidebar menu
+      // END Right Navbar
+    // END Nav wrapper
+    
+    // START Search form
+    form.navbar-form(role='search', action="search.html")
+      .form-group.has-feedback
+        input.form-control(type='text', placeholder="Type and hit enter ...")
+        .fa.fa-times.form-control-feedback(data-search-dismiss="")
+      button.hidden.btn.btn-default(type='submit') Submit
+    // END Search form
+
+// END Top Navbar

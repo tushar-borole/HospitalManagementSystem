@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+  
+  head
+
+    include views/partials/_head
+
+  body
+
+    .wrapper
+      // top navbar
+      header.topnavbar-wrapper
+        include views/partials/_top-navbar
+
+      // sidebar
+      aside.aside
+        include views/partials/_sidebar
+
+      // offsidebar
+      aside.offsidebar.hide
+        include views/partials/_offsidebar
+
+      // Main section
+      section
+
+        // Page content
+        .content-wrapper
+    
+          block content
+        
+      // Page footer
+      footer
+        include views/partials/_footer
+
+
+    include views/partials/_scripts
