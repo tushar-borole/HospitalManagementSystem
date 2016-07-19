@@ -20,8 +20,8 @@ $(document).ready(function () {
         }
 
         $.ajax(settings).done(function (response) {
-           $('.modal.in').modal('hide')
-             table.destroy();
+            $('.modal.in').modal('hide')
+            table.destroy();
             $('#datatable4').empty(); // empty in case the columns change
             getPatient()
         });
@@ -48,22 +48,25 @@ $(document).ready(function () {
 
     }
 
-    function updatePatient(data) {
+    function updatePatient(data, id) {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "patient/2",
+            "url": "patient/" + id,
             "method": "PUT",
             "headers": {
                 "content-type": "application/json",
                 "cache-control": "no-cache"
             },
             "processData": false,
-            "data": JSON.strigify(data)
+            "data": JSON.stringify(data)
         }
 
         $.ajax(settings).done(function (response) {
-            console.log(response);
+            $('.modal.in').modal('hide')
+            table.destroy();
+            $('#datatable4').empty(); // empty in case the columns change
+            getPatient()
         });
 
 
@@ -126,12 +129,20 @@ $(document).ready(function () {
 
             });
             $('#datatable4 tbody').on('click', '.btn-edit', function () {
+                var data = table.row($(this).parents('tr')).data();
                 $('#myModal').modal()
                 $('#myModal').on('shown.bs.modal', function (e) {
-                    // do something...
+                    for (var key in data) {
+                        $("[name=" + key + "]").val(data[key])
+                    }
+                    $("#savethepatient").click(function () {
+                        jsondata = $('#detailform').serializeJSON();
+                        updatePatient(jsondata, data.pat_id)
+
+                    })
                 })
 
-                addPatient()
+
 
             });
 
@@ -148,8 +159,7 @@ $(document).ready(function () {
         $('#myModal').on('shown.bs.modal', function (e) {
 
             $("#savethepatient").click(function () {
-                jsondata=$('#detailform').serializeJSON();
-                console.log(jsondata)
+                jsondata = $('#detailform').serializeJSON();
                 addPatient(jsondata)
 
             })

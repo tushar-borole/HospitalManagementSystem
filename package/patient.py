@@ -7,7 +7,7 @@ from package.model import conn
 class Patients(Resource):
 
     def get(self):
-        patients = conn.execute("SELECT * FROM patient").fetchall()
+        patients = conn.execute("SELECT * FROM patient  ORDER BY pat_date").fetchall()
         return patients
 
 
