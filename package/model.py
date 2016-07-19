@@ -17,6 +17,7 @@ pat_first_name TEXT NOT NULL,
 pat_last_name TEXT NOT NULL,
 pat_insurance_no TEXT NOT NULL,
 pat_ph_no TEXT NOT NULL,
+pat_date DATE DEFAULT (datetime('now','localtime')),
 pat_address TEXT NOT NULL);''')
 
 conn.execute('''CREATE TABLE if not exists doctor
@@ -24,6 +25,7 @@ conn.execute('''CREATE TABLE if not exists doctor
 doc_first_name TEXT NOT NULL,
 doc_last_name TEXT NOT NULL,
 doc_ph_no TEXT NOT NULL,
+doc_date DATE DEFAULT (datetime('now','localtime')),
 doc_address TEXT NOT NULL);''')
 
 conn.execute('''CREATE TABLE if not exists patient_doctor
