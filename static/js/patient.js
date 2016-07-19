@@ -76,7 +76,25 @@ function getPatient() {
     }
 
 $.ajax(settings).done(function (response) {
-        console.log(response);
+         var table=$('#datatable4').DataTable({
+        'paging':   true,  // Table pagination
+        'ordering': true,  // Column ordering
+        'info':     true,  // Bottom left status text
+        aaData:response,
+        aoColumns: [
+          { mData: 'pat_first_name' },
+          { mData: 'pat_last_name' },
+          { mData: 'pat_insurance_no' },
+          { mData: 'pat_address' },
+          { mData: 'pat_ph_no' },
+           {mRender: function (o) { return '<button class="btn-xs btn btn-info" type="button">Edit</button>'; }},
+           {mRender: function (o) { return '<button class="btn-xs btn btn-danger delete-btn" type="button">Delete</button>'; }}
+        ]
+    });
+    $('#datatable4 tbody').on( 'click', '.delete-btn', function () {
+          var data = table.row( $(this).parents('tr') ).data();
+          console.log(data)
+    });
 });
 
 
