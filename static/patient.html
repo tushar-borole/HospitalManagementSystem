@@ -121,35 +121,35 @@
                <h4 id="myModalLabel" class="modal-title">Modal title</h4>
             </div>
             <div class="modal-body">
-               <form class="form-horizontal" id="detailform">
+               <form data-parsley-validate="" novalidate="" class="form-horizontal" id="detailform">
                            <div class="form-group">
                               <label class="col-lg-2 control-label">First Name</label>
                               <div class="col-lg-10">
-                                 <input type="text" name="pat_first_name" class="form-control" placeholder="First Name">
+                                 <input required type="text" name="pat_first_name" class="form-control" placeholder="First Name">
                               </div>
                            </div>
                            <div class="form-group">
                               <label class="col-lg-2 control-label">Last name</label>
                               <div class="col-lg-10">
-                                 <input type="text" name="pat_last_name" class="form-control" placeholder="Last name">
+                                 <input required type="text" name="pat_last_name" class="form-control" placeholder="Last name">
                               </div>
                            </div>
                    <div class="form-group">
                               <label class="col-lg-2 control-label">Insurance No</label>
                               <div class="col-lg-10">
-                                 <input type="text" name="pat_insurance_no"  class="form-control" placeholder="Insurance No">
+                                 <input required type="text" name="pat_insurance_no"  class="form-control" placeholder="Insurance No">
                               </div>
                            </div>
                    <div class="form-group">
                               <label class="col-lg-2 control-label">Phone Number</label>
                               <div class="col-lg-10">
-                                 <input name="pat_ph_no" type="text" class="form-control" placeholder="Phone Number">
+                                 <input required name="pat_ph_no" type="text" class="form-control" placeholder="Phone Number">
                               </div>
                            </div>
                    <div class="form-group">
                               <label class="col-lg-2 control-label">Address</label>
                               <div class="col-lg-10">
-                                 <textarea name="pat_address" class="form-control" placeholder="Address"></textarea>
+                                 <textarea required name="pat_address" class="form-control" placeholder="Address"></textarea>
                               </div>
                            </div>
 
@@ -182,6 +182,7 @@
    <script src="vendor/jquery.easing/js/jquery.easing.js"></script>
    <!-- ANIMO-->
    <script src="vendor/animo.js/animo.js"></script>
+    <script src="vendor/parsley/parsley.min.js"></script>
    <!-- LOCALIZE-->
    <script src="vendor/jquery-localize-i18n/dist/jquery.localize.js"></script>
    <!-- =============== PAGE VENDOR SCRIPTS ===============-->

@@ -8,7 +8,7 @@ $(document).ready(function () {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "http://127.0.0.1:5000/patient",
+            "url": "patient",
             "method": "POST",
             "headers": {
                 "content-type": "application/json",
@@ -32,7 +32,7 @@ $(document).ready(function () {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "http://127.0.0.1:5000/patient/" + id,
+            "url": "patient/" + id,
             "method": "DELETE",
             "headers": {
                 "cache-control": "no-cache",
@@ -128,16 +128,18 @@ $(document).ready(function () {
                 deletePatient(data.pat_id)
 
             });
-            $('#datatable4 tbody').on('click', '.btn-edit', function () {
+            $('.btn-edit').one("click", function(e) {
                 var data = table.row($(this).parents('tr')).data();
-                $('#myModal').modal()
-                $('#myModal').on('shown.bs.modal', function (e) {
+                $('#myModal').modal().one('shown.bs.modal', function (e) {
                     for (var key in data) {
                         $("[name=" + key + "]").val(data[key])
                     }
-                    $("#savethepatient").click(function () {
+                    $("#savethepatient").one("click", function(e) {
+                    var instance = $('#detailform').parsley();
+                    if(instance.isValid()){
                         jsondata = $('#detailform').serializeJSON();
                         updatePatient(jsondata, data.pat_id)
+                        }
 
                     })
                 })
@@ -152,18 +154,23 @@ $(document).ready(function () {
     }
 
 
-    getPatient()
+
 
     $("#addpatient").click(function () {
-        $('#myModal').modal()
-        $('#myModal').on('shown.bs.modal', function (e) {
 
-            $("#savethepatient").click(function () {
+        $('#myModal').modal().one('shown.bs.modal', function (e) {
+
+
+            $("#savethepatient").one("click", function(e) {
+            console.log("inn")
+            var instance = $('#detailform').parsley();
+            instance.validate()
+                    if(instance.isValid()){
                 jsondata = $('#detailform').serializeJSON();
                 addPatient(jsondata)
+                }
 
             })
-
 
         })
 
@@ -171,4 +178,6 @@ $(document).ready(function () {
 
     })
 
+
+getPatient()
 })
