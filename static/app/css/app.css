@@ -1058,6 +1058,7 @@ _:-ms-lang(x),
 .topnavbar .navbar-header .brand-logo {
   display: block;
   padding: 10px 15px;
+  color: white;
 }
 .topnavbar .navbar-header .brand-logo-collapsed {
   display: none;

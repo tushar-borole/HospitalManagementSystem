@@ -2,7 +2,7 @@ from flask_restful import Resource, Api, request
 from package.model import conn
 class Doctors(Resource):
     def get(self):
-        doctors = conn.execute("SELECT * FROM doctor").fetchall()
+        doctors = conn.execute("SELECT * FROM doctor ORDER BY doc_date").fetchall()
         return doctors
 
     def put(self):

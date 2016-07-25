@@ -1,10 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="description" content="Bootstrap Admin App + jQuery">
+   <meta name="keywords" content="app, responsive, jquery, bootstrap, dashboard, admin">
+   <title>HospitalManagementSystem</title>
+   <!-- =============== VENDOR STYLES ===============-->
+   <!-- FONT AWESOME-->
+   <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+   <!-- SIMPLE LINE ICONS-->
+   <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+   <!-- ANIMATE.CSS-->
+   <link rel="stylesheet" href="vendor/animate.css/animate.min.css">
+   <!-- WHIRL (spinners)-->
+   <link rel="stylesheet" href="vendor/whirl/dist/whirl.css">
+    <link rel="stylesheet" href="vendor/sweetalert/dist/sweetalert.css">
+     <!-- DATATABLES-->
+   <link rel="stylesheet" href="vendor/datatables-colvis/css/dataTables.colVis.css">
+   <link rel="stylesheet" href="vendor/datatables/media/css/dataTables.bootstrap.css">
+   <link rel="stylesheet" href="vendor/dataTables.fontAwesome/index.css">
+   <!-- =============== PAGE VENDOR STYLES ===============-->
+   <!-- =============== BOOTSTRAP STYLES ===============-->
+   <link rel="stylesheet" href="app/css/bootstrap.css" id="bscss">
+   <!-- =============== APP STYLES ===============-->
+   <link rel="stylesheet" href="app/css/app.css" id="maincss">
 </head>
-<body>
-doctor
+
+<body class="layout-h">
+   <div class="wrapper">
+      <!-- top navbar-->
+      <header class="topnavbar-wrapper">
+         <!-- START Top Navbar-->
+         <nav role="navigation" class="navbar topnavbar">
+            <!-- START navbar header-->
+            <div class="navbar-header">
+               <a href="/" class="navbar-brand">
+                  <div class="brand-logo">
+                     HospitalManagementSystem
+                  </div>
+                  <div class="brand-logo-collapsed">
+                     <img src="img/logo-single.png" alt="App Logo" class="img-responsive">
+                  </div>
+               </a>
+            </div>
+            <!-- END navbar header-->
+            <!-- START Nav wrapper-->
+            <div class="nav-wrapper">
+
+            </div>
+            <!-- END Nav wrapper-->
+            <!-- START Search form-->
+            <form role="search" action="search.html" class="navbar-form">
+               <div class="form-group has-feedback">
+                  <input type="text" placeholder="Type and hit enter ..." class="form-control">
+                  <div data-search-dismiss="" class="fa fa-times form-control-feedback"></div>
+               </div>
+               <button type="submit" class="hidden btn btn-default">Submit</button>
+            </form>
+            <!-- END Search form-->
+         </nav>
+         <!-- END Top Navbar-->
+      </header>
+      <!-- sidebar-->
+
+      <!-- offsidebar-->
+
+      <!-- Main section-->
+      <section>
+         <!-- Page content-->
+         <div class="content-wrapper">
+            <div class="content-heading">
+               <!-- START Language list-->
+
+               <!-- END Language list    -->
+               Doctor
+               <small data-localize="dashboard.WELCOME"></small>
+                <div class="pull-right">
+                  <div class="btn-group">
+                     <button  style="bottom: 27px;" id="addpatient" class="mb-sm btn btn-primary" type="button">Add Doctor</button>
+
+                  </div>
+               </div>
+            </div>
+           <div class="row">
+                  <div class="col-lg-12">
+                     <div class="panel panel-default"  style="padding: 15px;">
+
+                        <div class="table-responsive">
+                           <table id="datatable4" class="table table-striped">
+                              <thead>
+                                 <tr>
+                                    <th style="width:20%">First Name</th>
+                                    <th style="width:25%">Last Name</th>
+                                    <th style="width:25%">Insurance</th>
+                                    <th style="width:15%">Adress</th>
+                                    <th style="width:15%">Phone Number</th>
+                                      <th style="width:15%"></th>
+                                      <th style="width:15%"></th>
+                                 </tr>
+                              </thead>
+                              <tbody></tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </section>
+      <!-- Page footer-->
+      <footer>
+         <span>&copy; 2016 - Angle</span>
+      </footer>
+   </div>
+
+    <div id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" class="modal fade">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+               <h4 id="myModalLabel" class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+               <form data-parsley-validate="" novalidate="" class="form-horizontal" id="detailform">
+                           <div class="form-group">
+                              <label class="col-lg-2 control-label">First Name</label>
+                              <div class="col-lg-10">
+                                 <input required type="text" name="doc_first_name" class="form-control" placeholder="First Name">
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-lg-2 control-label">Last name</label>
+                              <div class="col-lg-10">
+                                 <input required type="text" name="doc_last_name" class="form-control" placeholder="Last name">
+                              </div>
+                           </div>
+
+                   <div class="form-group">
+                              <label class="col-lg-2 control-label">Phone Number</label>
+                              <div class="col-lg-10">
+                                 <input required name="doc_ph_no" type="text" class="form-control" placeholder="Phone Number">
+                              </div>
+                           </div>
+                   <div class="form-group">
+                              <label class="col-lg-2 control-label">Address</label>
+                              <div class="col-lg-10">
+                                 <textarea required name="doc_address" class="form-control" placeholder="Address"></textarea>
+                              </div>
+                           </div>
+
+                        </form>
+
+
+
+            </div>
+            <div class="modal-footer">
+               <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+               <button id="savethepatient" type="button" class="btn btn-primary">Save changes</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- =============== VENDOR SCRIPTS ===============-->
+   <!-- MODERNIZR-->
+   <script src="vendor/modernizr/modernizr.custom.js"></script>
+   <!-- JQUERY-->
+   <script src="vendor/jquery/dist/jquery.js"></script>
+   <!-- BOOTSTRAP-->
+   <script src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="vendor/datatables/media/js/jquery.dataTables.min.js"></script>
+   <script src="vendor/datatables-colvis/js/dataTables.colVis.js"></script>
+   <script src="vendor/datatables/media/js/dataTables.bootstrap.js"></script>
+   <script src="vendor/serialize/jquery.serializejson.js"></script>
+   <!-- STORAGE API-->
+   <script src="vendor/jQuery-Storage-API/jquery.storageapi.js"></script>
+   <!-- JQUERY EASING-->
+   <script src="vendor/jquery.easing/js/jquery.easing.js"></script>
+   <!-- ANIMO-->
+   <script src="vendor/animo.js/animo.js"></script>
+    <script src="vendor/parsley/parsley.min.js"></script>
+       <script src="vendor/sweetalert/dist/sweetalert.min.js"></script>
+   <!-- LOCALIZE-->
+   <script src="vendor/jquery-localize-i18n/dist/jquery.localize.js"></script>
+   <!-- =============== PAGE VENDOR SCRIPTS ===============-->
+   <!-- =============== APP SCRIPTS ===============-->
+   <script src="app/js/app.js"></script>
+<script src="js/doctor.js"></script>
 </body>
+
 </html>

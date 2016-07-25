@@ -3,12 +3,12 @@ $(document).ready(function () {
     var table
 
 
-    function addPatient(data) {
+    function addAppointment(data) {
 
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "patient",
+            "url": "appointment",
             "method": "POST",
             "headers": {
                 "content-type": "application/json",
@@ -23,16 +23,16 @@ $(document).ready(function () {
             $('.modal.in').modal('hide')
             table.destroy();
             $('#datatable4').empty(); // empty in case the columns change
-            getPatient()
+            getAppointment()
         });
 
     }
 
-    function deletePatient(id) {
+    function deleteAppointment(id) {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "patient/" + id,
+            "url": "appointment/" + id,
             "method": "DELETE",
             "headers": {
                 "cache-control": "no-cache",
@@ -53,7 +53,7 @@ swal({
    swal("Deleted!", "Your imaginary file has been deleted.", "success");
             table.destroy();
             $('#datatable4').empty(); // empty in case the columns change
-            getPatient()
+            getAppointment()
         });
 
 
@@ -61,36 +61,14 @@ swal({
 
     }
 
-    function updatePatient(data, id) {
-        var settings = {
-            "async": true,
-            "crossDomain": true,
-            "url": "patient/" + id,
-            "method": "PUT",
-            "headers": {
-                "content-type": "application/json",
-                "cache-control": "no-cache"
-            },
-            "processData": false,
-            "data": JSON.stringify(data)
-        }
-
-        $.ajax(settings).done(function (response) {
-            $('.modal.in').modal('hide')
-            table.destroy();
-            $('#datatable4').empty(); // empty in case the columns change
-            getPatient()
-        });
 
 
-    }
-
-    function getPatient() {
+    function getAppointment() {
 
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "patient",
+            "url": "appointment",
             "method": "GET",
             "headers": {
                 "cache-control": "no-cache"
@@ -109,24 +87,13 @@ swal({
                 aaData: response,
                 aoColumns: [
                     {
+                        mData: 'doc_first_name'
+                    },
+                    {
                         mData: 'pat_first_name'
                     },
                     {
-                        mData: 'pat_last_name'
-                    },
-                    {
-                        mData: 'pat_insurance_no'
-                    },
-                    {
-                        mData: 'pat_address'
-                    },
-                    {
-                        mData: 'pat_ph_no'
-                    },
-                    {
-                        mRender: function (o) {
-                            return '<button class="btn-xs btn btn-info btn-edit" type="button">Edit</button>';
-                        }
+                        mData: 'appointment_date'
                     },
                     {
                         mRender: function (o) {
@@ -138,30 +105,10 @@ swal({
             $('#datatable4 tbody').on('click', '.delete-btn', function () {
                 var data = table.row($(this).parents('tr')).data();
                 console.log(data)
-                deletePatient(data.pat_id)
+                deleteAppointment(data.app_id)
 
             });
-            $('.btn-edit').one("click", function(e) {
-                var data = table.row($(this).parents('tr')).data();
-                $('#myModal').modal().one('shown.bs.modal', function (e) {
-                    for (var key in data) {
-                        $("[name=" + key + "]").val(data[key])
-                    }
-                    $("#savethepatient").off("click").on("click", function(e) {
-                    var instance = $('#detailform').parsley();
-                    instance.validate()
-                    console.log(instance.isValid())
-                    if(instance.isValid()){
-                        jsondata = $('#detailform').serializeJSON();
-                        updatePatient(jsondata, data.pat_id)
-                        }
 
-                    })
-                })
-
-
-
-            });
 
         });
 
@@ -175,14 +122,16 @@ swal({
 
         $('#myModal').modal().one('shown.bs.modal', function (e) {
 
-console.log('innn')
+    $("#doctor_select").html(doctorSelect)
+     $("#patient_select").html(patientSelect)
             $("#savethepatient").off("click").on("click", function(e) {
-            console.log("inn")
+
+
             var instance = $('#detailform').parsley();
             instance.validate()
                     if(instance.isValid()){
                 jsondata = $('#detailform').serializeJSON();
-                addPatient(jsondata)
+                addAppointment(jsondata)
                 }
 
             })
@@ -194,5 +143,50 @@ console.log('innn')
     })
 
 
+var doctorSelect=""
+ function getDoctor() {
+
+        var settings = {
+            "async": true,
+            "crossDomain": true,
+            "url": "doctor",
+            "method": "GET",
+            "headers": {
+                "cache-control": "no-cache"
+            }
+        }
+
+        $.ajax(settings).done(function (response) {
+
+        for(i=0;i<response.length;i++){
+        doctorSelect +="<option value="+response[i].doc_id+">"+response[i].doc_first_name+"</option>"
+        }
+
+
+        })
+        }
+var patientSelect=""
+  function getPatient() {
+
+        var settings = {
+            "async": true,
+            "crossDomain": true,
+            "url": "patient",
+            "method": "GET",
+            "headers": {
+                "cache-control": "no-cache"
+            }
+        }
+
+        $.ajax(settings).done(function (response) {
+         for(i=0;i<response.length;i++){
+        patientSelect +="<option value="+response[i].pat_id+">"+response[i].pat_first_name+"</option>"
+        }
+
+                })
+        }
+
+getDoctor()
 getPatient()
+getAppointment()
 })

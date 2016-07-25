@@ -28,8 +28,9 @@ doc_ph_no TEXT NOT NULL,
 doc_date DATE DEFAULT (datetime('now','localtime')),
 doc_address TEXT NOT NULL);''')
 
-conn.execute('''CREATE TABLE if not exists patient_doctor
-(pat_id INTEGER NOT NULL,
+conn.execute('''CREATE TABLE if not exists appointment
+(app_id INTEGER PRIMARY KEY AUTOINCREMENT,
+pat_id INTEGER NOT NULL,
 doc_id INTEGER NOT NULL,
 appointment_date DATE DEFAULT (datetime('now','localtime')),
 FOREIGN KEY(pat_id) REFERENCES patient(pat_id),
