@@ -20,9 +20,11 @@ $(document).ready(function () {
         }
 
         $.ajax(settings).done(function (response) {
+         $.notify("Appointment Added Successfully", {"status":"success"});
+
             $('.modal.in').modal('hide')
             table.destroy();
-            $('#datatable4').empty(); // empty in case the columns change
+            $('#datatable4 tbody').empty(); // empty in case the columns change
             getAppointment()
         });
 
@@ -42,7 +44,7 @@ $(document).ready(function () {
 
 swal({
     title: "Are you sure?",
-    text: "You will not be able to recover this imaginary file!",
+    text: "You will not be able to recover this data",
     type: "warning",
     showCancelButton: true,
     confirmButtonColor: "#DD6B55",
@@ -50,9 +52,9 @@ swal({
     closeOnConfirm: false
 }, function() {
  $.ajax(settings).done(function (response) {
-   swal("Deleted!", "Your imaginary file has been deleted.", "success");
+   swal("Deleted!", "Appointment has been deleted.", "success");
             table.destroy();
-            $('#datatable4').empty(); // empty in case the columns change
+            $('#datatable4 tbody').empty(); // empty in case the columns change
             getAppointment()
         });
 
@@ -77,6 +79,11 @@ swal({
 
         $.ajax(settings).done(function (response) {
 
+        for(i=0;i<response.length;i++){
+        response[i].pat_fullname=response[i].pat_first_name+" "+response[i].pat_last_name
+        response[i].doc_fullname=response[i].doc_first_name+" "+response[i].doc_last_name
+        }
+
 
 
             table = $('#datatable4').DataTable({
@@ -85,12 +92,13 @@ swal({
                 'ordering': true, // Column ordering
                 'info': true, // Bottom left status text
                 aaData: response,
+                   "aaSorting": [],
                 aoColumns: [
                     {
-                        mData: 'doc_first_name'
+                        mData: 'doc_fullname'
                     },
                     {
-                        mData: 'pat_first_name'
+                        mData: 'pat_fullname'
                     },
                     {
                         mData: 'appointment_date'
@@ -124,6 +132,12 @@ swal({
 
     $("#doctor_select").html(doctorSelect)
      $("#patient_select").html(patientSelect)
+
+      $(".form_datetime").datetimepicker({
+         format: 'yyyy-mm-dd hh:ii:ss',
+         startDate:new Date(),
+        initialDate: new Date()
+    });
             $("#savethepatient").off("click").on("click", function(e) {
 
 
@@ -159,7 +173,9 @@ var doctorSelect=""
         $.ajax(settings).done(function (response) {
 
         for(i=0;i<response.length;i++){
-        doctorSelect +="<option value="+response[i].doc_id+">"+response[i].doc_first_name+"</option>"
+
+        response[i].doc_fullname=response[i].doc_first_name+" "+response[i].doc_last_name
+        doctorSelect +="<option value="+response[i].doc_id+">"+response[i].doc_fullname+"</option>"
         }
 
 
@@ -180,7 +196,8 @@ var patientSelect=""
 
         $.ajax(settings).done(function (response) {
          for(i=0;i<response.length;i++){
-        patientSelect +="<option value="+response[i].pat_id+">"+response[i].pat_first_name+"</option>"
+          response[i].pat_fullname=response[i].pat_first_name+" "+response[i].pat_last_name
+        patientSelect +="<option value="+response[i].pat_id+">"+response[i].pat_fullname+"</option>"
         }
 
                 })

@@ -21,8 +21,9 @@ $(document).ready(function () {
 
         $.ajax(settings).done(function (response) {
             $('.modal.in').modal('hide')
+            $.notify("Patient Added Successfully", {"status":"success"});
             table.destroy();
-            $('#datatable4').empty(); // empty in case the columns change
+            $('#datatable4 tbody').empty(); // empty in case the columns change
             getPatient()
         });
 
@@ -42,7 +43,7 @@ $(document).ready(function () {
 
 swal({
     title: "Are you sure?",
-    text: "You will not be able to recover this imaginary file!",
+    text: "You will not be able to recover this data",
     type: "warning",
     showCancelButton: true,
     confirmButtonColor: "#DD6B55",
@@ -50,9 +51,9 @@ swal({
     closeOnConfirm: false
 }, function() {
  $.ajax(settings).done(function (response) {
-   swal("Deleted!", "Your imaginary file has been deleted.", "success");
+   swal("Deleted!", "Patient has been deleted.", "success");
             table.destroy();
-            $('#datatable4').empty(); // empty in case the columns change
+            $('#datatable4 tbody').empty(); // empty in case the columns change
             getPatient()
         });
 
@@ -77,8 +78,9 @@ swal({
 
         $.ajax(settings).done(function (response) {
             $('.modal.in').modal('hide')
+            $.notify("Patient Updated Successfully", {"status":"success"});
             table.destroy();
-            $('#datatable4').empty(); // empty in case the columns change
+            $('#datatable4 tbody').empty(); // empty in case the columns change
             getPatient()
         });
 
@@ -107,6 +109,7 @@ swal({
                 'ordering': true, // Column ordering
                 'info': true, // Bottom left status text
                 aaData: response,
+                 "aaSorting": [],
                 aoColumns: [
                     {
                         mData: 'pat_first_name'
@@ -172,7 +175,7 @@ swal({
 
 
     $("#addpatient").click(function () {
-
+$('#detailform input,textarea').val("")
         $('#myModal').modal().one('shown.bs.modal', function (e) {
 
 console.log('innn')

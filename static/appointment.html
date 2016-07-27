@@ -21,9 +21,12 @@
    <link rel="stylesheet" href="vendor/datatables-colvis/css/dataTables.colVis.css">
    <link rel="stylesheet" href="vendor/datatables/media/css/dataTables.bootstrap.css">
    <link rel="stylesheet" href="vendor/dataTables.fontAwesome/index.css">
+
+
    <!-- =============== PAGE VENDOR STYLES ===============-->
    <!-- =============== BOOTSTRAP STYLES ===============-->
    <link rel="stylesheet" href="app/css/bootstrap.css" id="bscss">
+    <link rel="stylesheet" href="vendor/datepicker/build/css/bootstrap-datetimepicker.min.css">
    <!-- =============== APP STYLES ===============-->
    <link rel="stylesheet" href="app/css/app.css" id="maincss">
 </head>
@@ -119,7 +122,7 @@
                <button type="button" data-dismiss="modal" aria-label="Close" class="close">
                   <span aria-hidden="true">&times;</span>
                </button>
-               <h4 id="myModalLabel" class="modal-title">Modal title</h4>
+               <h4 id="myModalLabel" class="modal-title">Appointment</h4>
             </div>
             <div class="modal-body">
                <form data-parsley-validate="" novalidate="" class="form-horizontal" id="detailform">
@@ -134,6 +137,16 @@
                               <div class="col-lg-10">
                                  <select required id="patient_select" type="text" name="pat_id" class="form-control" placeholder="Please select Patient"></select>
                               </div>
+                           </div>
+
+                  <div class="form-group">
+                              <label class="col-lg-2 control-label">Appointment date</label>
+
+                                     <div class="col-lg-10">
+    <input size="16" type="text" name="appointment_date" required class="form-control form_datetime" value="" readonly>
+
+</div>
+
                            </div>
 
 
@@ -154,7 +167,8 @@
    <!-- MODERNIZR-->
    <script src="vendor/modernizr/modernizr.custom.js"></script>
    <!-- JQUERY-->
-   <script src="vendor/jquery/dist/jquery.js"></script>
+   <script src="vendor/jquery/dist/jquery.js">
+   <script src="vendor/moment/moment-with-locales.min.js"></script>
    <!-- BOOTSTRAP-->
    <script src="vendor/bootstrap/dist/js/bootstrap.js"></script>
     <script src="vendor/datatables/media/js/jquery.dataTables.min.js"></script>
@@ -171,6 +185,7 @@
        <script src="vendor/sweetalert/dist/sweetalert.min.js"></script>
    <!-- LOCALIZE-->
    <script src="vendor/jquery-localize-i18n/dist/jquery.localize.js"></script>
+    <script src="vendor/datepicker/build/js/bootstrap-datetimepicker.min.js"></script>
    <!-- =============== PAGE VENDOR SCRIPTS ===============-->
    <!-- =============== APP SCRIPTS ===============-->
    <script src="app/js/app.js"></script>

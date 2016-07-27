@@ -1,5 +1,6 @@
 import sqlite3
 conn=sqlite3.connect('database.db', check_same_thread=False)
+conn.execute('pragma foreign_keys=ON')
 
 
 def dict_factory(cursor, row):
@@ -32,6 +33,6 @@ conn.execute('''CREATE TABLE if not exists appointment
 (app_id INTEGER PRIMARY KEY AUTOINCREMENT,
 pat_id INTEGER NOT NULL,
 doc_id INTEGER NOT NULL,
-appointment_date DATE DEFAULT (datetime('now','localtime')),
+appointment_date DATE NOT NULL,
 FOREIGN KEY(pat_id) REFERENCES patient(pat_id),
 FOREIGN KEY(doc_id) REFERENCES doctor(doc_id));''')

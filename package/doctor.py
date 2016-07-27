@@ -2,14 +2,10 @@ from flask_restful import Resource, Api, request
 from package.model import conn
 class Doctors(Resource):
     def get(self):
-        doctors = conn.execute("SELECT * FROM doctor ORDER BY doc_date").fetchall()
+        doctors = conn.execute("SELECT * FROM doctor ORDER BY doc_date DESC").fetchall()
         return doctors
 
-    def put(self):
-        return {'hello': 'put'}
 
-    def delete(self):
-        return {'hello': 'delete'}
 
     def post(self):
         doctorInput = request.get_json(force=True)

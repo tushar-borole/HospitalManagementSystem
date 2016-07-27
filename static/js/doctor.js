@@ -21,8 +21,9 @@ $(document).ready(function () {
 
         $.ajax(settings).done(function (response) {
             $('.modal.in').modal('hide')
+               $.notify("Doctor Added Successfully", {"status":"success"});
             table.destroy();
-            $('#datatable4').empty(); // empty in case the columns change
+            $('#datatable4 tbody').empty(); // empty in case the columns change
             getDoctor()
         });
 
@@ -42,7 +43,7 @@ $(document).ready(function () {
 
         swal({
             title: "Are you sure?",
-            text: "You will not be able to recover this imaginary file!",
+            text: "You will not be able to recover this data",
             type: "warning",
             showCancelButton: true,
             confirmButtonColor: "#DD6B55",
@@ -50,9 +51,9 @@ $(document).ready(function () {
             closeOnConfirm: false
         }, function () {
             $.ajax(settings).done(function (response) {
-                swal("Deleted!", "Your imaginary file has been deleted.", "success");
+                swal("Deleted!", "Doctor has been deleted.", "success");
                 table.destroy();
-                $('#datatable4').empty(); // empty in case the columns change
+                $('#datatable4 tbody').empty(); // empty in case the columns change
                 getDoctor()
             });
 
@@ -76,9 +77,10 @@ $(document).ready(function () {
         }
 
         $.ajax(settings).done(function (response) {
+            $.notify("Doctor Updated Successfully", {"status":"success"});
             $('.modal.in').modal('hide')
             table.destroy();
-            $('#datatable4').empty(); // empty in case the columns change
+            $('#datatable4 tbody').empty(); // empty in case the columns change
             getDoctor()
         });
 
@@ -107,6 +109,7 @@ $(document).ready(function () {
                 'ordering': true, // Column ordering
                 'info': true, // Bottom left status text
                 aaData: response,
+                  "aaSorting": [],
                 aoColumns: [
                     {
                         mData: 'doc_first_name'
@@ -135,7 +138,7 @@ $(document).ready(function () {
             $('#datatable4 tbody').on('click', '.delete-btn', function () {
                 var data = table.row($(this).parents('tr')).data();
                 console.log(data)
-                deleteDoctor(data.pat_id)
+                deleteDoctor(data.doc_id)
 
             });
             $('.btn-edit').one("click", function (e) {
