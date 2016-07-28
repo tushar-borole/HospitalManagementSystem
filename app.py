@@ -4,7 +4,11 @@ from package.patient import Patients, Patient
 from package.doctor import Doctors, Doctor
 from package.appointment import Appointments, Appointment
 from package.common import Common
+import json
 
+
+with open('config.json') as data_file:
+    config = json.load(data_file)
 
 app = Flask(__name__, static_url_path='')
 api = Api(app)
@@ -25,4 +29,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host=config['host'],port=config['port'])

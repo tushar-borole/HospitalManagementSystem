@@ -30,6 +30,8 @@ class Patients(Resource):
         return patientInput
 
 class Patient(Resource):
+    """It contains all apis doing activity with the single patient entity"""
+
     def get(self,id):
         """api to retrive details of the patient by it id"""
 
