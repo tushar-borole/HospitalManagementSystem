@@ -4,6 +4,7 @@ conn.execute('pragma foreign_keys=ON')
 
 
 def dict_factory(cursor, row):
+    """This is an function use to fonmat the json when retirve from the  myswl database"""
     d = {}
     for idx, col in enumerate(cursor.description):
         d[col[0]] = row[idx]
