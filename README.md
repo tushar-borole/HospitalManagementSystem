@@ -24,7 +24,7 @@ python app.py
 
 ## screenshot
 
-<a href="../../" target="_blank"><img src="1.png" height="200"></a>
+<a href="../../" target="_blank"><img src="1.png" height="300"></a>
 
 
 
