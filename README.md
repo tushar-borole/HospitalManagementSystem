@@ -25,6 +25,7 @@ python app.py
 [Click here to view documentation](https://documenter.getpostman.com/view/457459/hospitalmanagementsystem/2HQup9)
 
 
+
 ## screenshot
 
 <a href="../../" target="_blank"><img src="1.png" height="300"></a>
