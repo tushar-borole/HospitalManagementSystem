@@ -22,7 +22,7 @@ python app.py
 }
 ```
 ## documentation
-[a link](https://documenter.getpostman.com/view/457459/hospitalmanagementsystem/2HQup9)
+[Click here to view documentation](https://documenter.getpostman.com/view/457459/hospitalmanagementsystem/2HQup9)
 
 
 ## screenshot
