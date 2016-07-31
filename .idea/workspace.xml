@@ -4,9 +4,16 @@
     <bookmark url="file://$PROJECT_DIR$/package/appointment.py" description="class Appointments(Resource):&#10;" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9374f26-cbbf-47fc-9e49-697448af0259" name="Default" comment="">
+    <list default="true" id="e9374f26-cbbf-47fc-9e49-697448af0259" name="Default" comment="Comments added to code">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HospitalManagementSystem.postman_collection.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="HospitalManagementSystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -219,15 +226,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Tushar\Google Drive\UIS Project\Tushar\Sem-2\Python\Assignment\Final\HospitalManagementSystem\static\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tushar\Google Drive\UIS Project\Tushar\Sem-2\Python\Assignment\Final\HospitalManagementSystem" />
       <recent name="C:\Users\Tushar\Google Drive\UIS Project\Tushar\Sem-2\Python\Assignment\Final\HospitalManagementSystem\static\vendor\datepicker\build\css" />
       <recent name="C:\Users\Tushar\Google Drive\UIS Project\Tushar\Sem-2\Python\Assignment\Final\HospitalManagementSystem\static\vendor\datepicker\build\js" />
       <recent name="C:\Users\Tushar\Google Drive\UIS Project\Tushar\Sem-2\Python\Assignment\Final\HospitalManagementSystem\static\vendor\datepicker" />
       <recent name="C:\Users\Tushar\Google Drive\UIS Project\Tushar\Sem-2\Python\Assignment\Final\HospitalManagementSystem\static\vendor\moment" />
-      <recent name="C:\Users\Tushar\Google Drive\UIS Project\Tushar\Sem-2\Python\Assignment\Final\HospitalManagementSystem\static\vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tushar\Google Drive\UIS Project\Tushar\Sem-2\Python\Assignment\Final\HospitalManagementSystem\static\js" />
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
@@ -529,14 +536,21 @@
       <option name="project" value="LOCAL" />
       <updated>1469947666989</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Comments added to code">
+      <created>1469949063052</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1469949063052</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
