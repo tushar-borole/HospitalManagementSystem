@@ -25,6 +25,12 @@ python app.py
 ## screenshot
 
 <a href="../../" target="_blank"><img src="1.png" height="300"></a>
+<a href="../../" target="_blank"><img src="2.png" height="300"></a>
+<a href="../../" target="_blank"><img src="3.png" height="300"></a>
+<a href="../../" target="_blank"><img src="4.png" height="300"></a>
+<a href="../../" target="_blank"><img src="5.png" height="300"></a>
+<a href="../../" target="_blank"><img src="6.png" height="300"></a>
+<a href="../../" target="_blank"><img src="7.png" height="300"></a>
 
 
 
